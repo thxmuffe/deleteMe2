@@ -14,10 +14,11 @@ public class Program {
 
 
         // after that we can use the builder to create the web api
+        webapi.Run();
 
 
         // once we have the web api, we can start it
 
-
+        Console.WriteLine("Ending...");
     }
 }
